@@ -1,7 +1,7 @@
 hadoop2-wordcount
 =================
 
-#"Advanced" WordCount tutorial modified for hadoop 2.4.0
+#WordCount tutorial for hadoop 2.4.0
 The original tutorial for hadoop 1.2.1 is here: http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
 The new API require some modifications.
 
