@@ -31,11 +31,16 @@ bin/hdfs dfs -put path/to/patterns.txt /conf
 ```
 
 * input files
-** file01:
+
+file01:
+
 ```Hello World, Bye World! ```
-** file02: 
+
+file02: 
+
 ```Hello Hadoop, Goodbye to hadoop.```
-** add it to hdfs
+
+add it to hdfs
 ```
 bin/hdfs dfs -mkdir /input
 bin/hdfs dfs -put path/to/file01 /input
