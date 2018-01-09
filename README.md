@@ -1,10 +1,10 @@
 hadoop2-wordcount
 =================
 
-#WordCount tutorial for hadoop 2.4.0
+# WordCount tutorial for hadoop 2.4.0
 The original tutorial for hadoop 1.2.1 is here: http://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html.The new API require some modifications.
 
-##Compile:
+## Compile:
 mvn install assembly:single
 
 ##Test on Hadoop 2.4.0 
@@ -12,10 +12,10 @@ mvn install assembly:single
 Installation with a Single Node Cluster with Pseudo-Ditributed mode
 http://hadoop.apache.org/docs/r2.4.0/hadoop-project-dist/hadoop-common/SingleCluster.html
 
-###launch hadoop:
+### launch hadoop:
 sbin/start-all.sh
 
-###Add following files to hdfs:
+### Add following files to hdfs:
 
 #### conf file
 * patterns.txt:
@@ -46,7 +46,7 @@ bin/hdfs dfs -mkdir /input
 bin/hdfs dfs -put path/to/file01 /input
 bin/hdfs dfs -put path/to/file02 /input
 ```
-###Execution
+### Execution
 
 * case sensitive test
 
