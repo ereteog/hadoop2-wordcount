@@ -7,7 +7,7 @@ The original tutorial for hadoop 1.2.1 is here: http://hadoop.apache.org/docs/r1
 ## Compile:
 mvn install assembly:single
 
-##Test on Hadoop 2.4.0 
+## Test on Hadoop 2.4.0 
 
 Installation with a Single Node Cluster with Pseudo-Ditributed mode
 http://hadoop.apache.org/docs/r2.4.0/hadoop-project-dist/hadoop-common/SingleCluster.html
